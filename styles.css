@@ -1,3 +1,26 @@
 body {
   background-color: #E0F8EC; /* Sage green */
 }
+
+.contact-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-icon:hover {
+    color: #a2face; 
+    box-shadow: 0 0 10px 3px rgba(224, 248, 236, 0.7);
+}
+
+.contact-icon i {
+    margin-right: 5px;
+}

@@ -1,7 +1,7 @@
 body {
   margin: 80px;
   border: 1px solid gray;
-  background-color: #363636; /* Slightly lighter than the previous #2C2C2C */
+  background-color: #2C2C2C;
   background-image: 
     linear-gradient(45deg, #1f1f1f 25%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, #1f1f1f 75%, #1f1f1f),
     linear-gradient(45deg, #1f1f1f 25%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, #1f1f1f 75%, #1f1f1f);

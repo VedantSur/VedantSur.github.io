@@ -4,22 +4,21 @@ body {
 
 .contact-icons {
     display: flex;
-    gap: 10px;
+    gap: 30px; /* Increased gap between icons for better spacing */
     margin-top: 20px;
+    justify-content: center; /* Center the icons horizontally */
 }
 
 .contact-icon {
     text-decoration: none;
     color: #000;
     font-size: 24px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    transition: transform 0.2s ease; /* Add transition for smooth animation */
+    display: inline-block; /* Change from flex to inline-block */
+    transition: transform 0.2s ease;
 }
 
 .contact-icon:hover {
-    transform: scale(1.1); /* Enlarge the icon by 10% on hover */
+    transform: scale(1.1);
 }
 
 .contact-icon i {

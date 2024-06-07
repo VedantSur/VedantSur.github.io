@@ -9,3 +9,25 @@ body {
   background-position: 0 0, 10px 10px;
   background-repeat: repeat;
 }
+
+.pages {
+    text-align: center;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    font-size: 21px;
+    color: #d3d0c6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pages a{
+    text-decoration: none;
+    color: #d3d0c6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pages a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -19,7 +19,7 @@ body {
   padding-right: 20px;
 }
 
-.navigation a:hover {
+.navigation:hover {
   font-weight: bold;
   text-decoration: underline;
 }

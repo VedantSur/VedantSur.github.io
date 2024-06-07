@@ -1,1 +1,4 @@
-
+body {
+  background-color: #001F3F; /* Set the background color to #001F3F */
+  color: #d3d0c6; /* Set the default text color to ensure readability */
+}

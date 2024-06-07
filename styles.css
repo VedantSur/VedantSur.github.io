@@ -10,17 +10,19 @@ body {
 
 .contact-icon {
     text-decoration: none;
+    color: #000;
     font-size: 24px;
     display: flex;
     align-items: center;
     gap: 5px;
+    transition: transform 0.2s ease; /* Add transition for smooth animation */
 }
 
 .contact-icon:hover {
-    color: #a2face; 
-    box-shadow: 0 0 10px 3px rgba(224, 248, 236, 0.7);
+    transform: scale(1.1); /* Enlarge the icon by 10% on hover */
 }
 
 .contact-icon i {
     margin-right: 5px;
 }
+

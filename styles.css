@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px; /* Adjust the top margin as needed */
-    background-color: #4682B4; /* Example: Steel Blue */
+    background-color: rgba(203, 243, 223, 0.8); /* #CBF3DF with 80% opacity */
     padding: 10px; /* Add some padding for better spacing */
     border-radius: 8px; /* Optional: Rounded corners */
 }
@@ -21,9 +21,7 @@ body {
 
 .navigation a:hover {
     font-weight: bold; /* Make the font bold */
-    text-decoration: underline; /* Underline the link */
     font-size: 20px; /* Slightly enlarge the font */
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
 }
 
 .contact-icons {

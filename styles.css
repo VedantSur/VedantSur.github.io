@@ -2,6 +2,19 @@ body {
   background-color: #E0F8EC; /* Sage green */
 }
 
+/* Center the navigation panel and space out the links */
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.navigation a {
+    margin: 0 15px; /* Adjust the horizontal spacing between links */
+    text-decoration: none; /* Remove underline from links */
+}
+
 .contact-icons {
     display: flex;
     gap: 30px; /* Increased gap between icons for better spacing */

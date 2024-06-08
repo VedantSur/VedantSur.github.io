@@ -2,17 +2,20 @@ body {
   background-color: #E0F8EC; /* Sage green */
 }
 
-/* Center the navigation panel and space out the links */
 .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px; /* Adjust the top margin as needed */
+    background-color: #4682B4; /* Example: Steel Blue */
+    padding: 10px; /* Add some padding for better spacing */
+    border-radius: 8px; /* Optional: Rounded corners */
 }
 
 .navigation a {
     margin: 0 15px; /* Adjust the horizontal spacing between links */
     text-decoration: none; /* Remove underline from links */
+    color: white; /* Ensure text is readable */
 }
 
 .contact-icons {

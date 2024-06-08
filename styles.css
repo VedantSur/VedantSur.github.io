@@ -16,6 +16,14 @@ body {
     margin: 0 15px; /* Adjust the horizontal spacing between links */
     text-decoration: none; /* Remove underline from links */
     color: white; /* Ensure text is readable */
+    font-size: 18px; 
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navigation a:hover {
+    font-weight: bold; /* Make the font bold */
+    text-decoration: underline; /* Underline the link */
+    font-size: 20px; /* Slightly enlarge the font */
 }
 
 .contact-icons {

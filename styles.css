@@ -15,6 +15,7 @@ body {
 .navigation a {
     margin: 0 15px; /* Adjust the horizontal spacing between links */
     text-decoration: none; /* Remove underline from links */
+    font-family: 'Copperplate', 'Papyrus', fantasy; /* Set custom font stack */
     color: black; /* Ensure text is readable */
     font-size: 18px; 
 }

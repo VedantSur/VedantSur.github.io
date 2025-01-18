@@ -1,1 +1,1 @@
-My Personal Portfolio - Vedant Surjan
+Personal Portfolio

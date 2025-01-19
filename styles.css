@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.theme-toggle {
+    position: fixed; /* Fixed position independent of navigation */
+    top: 10px; 
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: inherit;
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.navigation {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    display: flex;
+    height: 100%;
+    width: 250px;
+    padding: 20px;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.navigation a:hover {
+    color: #4caf50;
+}
+
 .Title {
     font-weight: bold;
 }
 
 .Header {
+    font-weight: bold;
+}
+
+.Title, .Header {
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
@@ -13,4 +54,10 @@
 
 p {
     text-align: justify;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
 }

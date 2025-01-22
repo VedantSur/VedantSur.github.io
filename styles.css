@@ -61,10 +61,13 @@ body.dark-mode .navigation {
 
 .Title {
     font-weight: bold;
+    padding-top: 25px;
 }
 
 .Header {
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .Title, .Header {
@@ -111,8 +114,8 @@ p {
 }
 
 .social-icon span {
-    margin-top: 10px; /* Add spacing between the icon and the label */
-    font-size: 16px; /* Adjust text size */
-    font-weight: bold; /* Make the text label more prominent */
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
     color: inherit;
 }

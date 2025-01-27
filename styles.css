@@ -177,12 +177,19 @@ body.dark-mode .contact-form textarea {
 
 .contact-form .form-row {
     display: flex;
-    justify-content: space-between;
     gap: 1em;
+    flex-wrap: wrap; /* Allows rows to stack responsively on smaller screens */
 }
 
-.contact-form .form-row input {
-    width: 48%;
+.contact-form .form-row input,
+.contact-form .form-row textarea {
+    flex: 1; /* Ensures equal width where applicable */
+    min-width: calc(50% - 0.5em); /* Adjusts for responsive layout */
+}
+
+.contact-form textarea {
+    width: 100%; /* Ensures the message box spans the full width */
+    height: 150px; /* Fixed height for consistency */
 }
 
 .contact-form button {

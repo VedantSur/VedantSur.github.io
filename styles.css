@@ -112,6 +112,16 @@ p {
     line-height: 1.5;
 }
 
+.experience-separator {
+    height: 2em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 1.5em 0;
+}
+
+body.dark-mode .experience-separator {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
 .socials {
     margin-top: 20px;
     display: flex;
@@ -157,16 +167,16 @@ body.dark-mode .contact-form {
     padding: 0.75em;
     border: none;
     border-radius: 8px;
-    background-color: #eaeaea; /* Updated light mode color for better contrast */
-    color: #000; /* Dark text for readability in light mode */
+    background-color: #eaeaea;
+    color: #000; 
     font-size: 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-mode .contact-form input,
 body.dark-mode .contact-form textarea {
-    background-color: #1c1c1c; /* Keeps dark mode consistent */
-    color: #fff; /* Light text for readability in dark mode */
+    background-color: #1c1c1c; 
+    color: #fff;
 }
 
 .contact-form input::placeholder,
@@ -183,13 +193,13 @@ body.dark-mode .contact-form textarea {
 
 .contact-form .form-row input,
 .contact-form .form-row textarea {
-    flex: 1; /* Ensures equal width where applicable */
-    min-width: calc(50% - 0.5em); /* Adjusts for responsive layout */
+    flex: 1;
+    min-width: calc(50% - 0.5em); 
 }
 
 .contact-form textarea {
-    width: 100%; /* Ensures the message box spans the full width */
-    height: 150px; /* Fixed height for consistency */
+    width: 100%; 
+    height: 150px;
 }
 
 .contact-form button {
@@ -201,11 +211,11 @@ body.dark-mode .contact-form textarea {
     border: none;
     border-radius: 8px;
     color: #fff;
-    background-color: #007bff; /* Button blue */
+    background-color: #007bff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: #0056b3; /* Button dark blue on hover */
+    background-color: #0056b3;
 }

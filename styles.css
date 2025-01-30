@@ -37,11 +37,12 @@ body.dark-mode {
     flex-direction: column;
     align-items: flex-start;
     font-weight: bold;
-    justify-content: center;
     font-size: 20px;
     background-color: #f0f0f0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease; 
+    justify-content: flex-start;
+    padding-top: 230px;
 }
 
 body.dark-mode .navigation {
@@ -84,7 +85,7 @@ body.dark-mode .navigation {
     flex-grow: 1; 
     padding: 20px; 
     box-sizing: border-box;
-    margin-left: 350px;
+    margin-left: 380px;
     box-sizing: border-box;
     max-width: 1000px;
 }
